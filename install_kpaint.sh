@@ -133,16 +133,14 @@ echo "==> Launching application..."
 open "$APP_DST" || true
 sleep 3
 
-
 echo "==> Killing application..."
 
 pkill -x "kolourpaint"
 sleep 3
 
-clear
-
 #Code above brut-forces enabling, opening and killing the app 
 #so it is not needed for now but I left it in case new mac updates don't allow it anymore
+#clear
 #echo
 #echo "If macOS blocks the app:"
 #echo "Settings -> Privacy & Security -> click 'Open Anyway'"
